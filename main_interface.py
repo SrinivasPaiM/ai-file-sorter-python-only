@@ -8,7 +8,7 @@ def main():
 
     # Ask the user for the path and sorting method
     root_directory = input("Enter the directory path to organize: ").strip()
-    #C:\Users\reals\Desktop\test
+    #C:\Users\reals\Desktop\test--Example Directory
     sort_method = input("Which sorting method do you want? (simple/advanced enter as s/a): ").strip().lower()
 
     if sort_method == "s":
