@@ -96,5 +96,5 @@ def ai_based_sort(root_directory):
     file_sorter = FileSorter(file_names, categories)
 
     # Call the sorting function
-    sorted_output_directory = r"C:\Users\reals\Desktop\test2"
+    sorted_output_directory = r"YOUR_FILE_DIRECTORY"
     file_sorter.sort_files_by_category(root_directory, sorted_output_directory)
