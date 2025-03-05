@@ -1,7 +1,7 @@
 import os
 import shutil
 import logging
-from file_traversal import FileTraversal  # Assuming the traversal class is in file_traversal.py
+from file_traversal import FileTraversal  
 
 class FileOrganizer:
     def __init__(self, root_dir):
